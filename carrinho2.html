@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Importações dos arquivos css -->
+      <link rel="stylesheet" href="./BOOTSTRAP/css/bootstrap.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="css/carrinho.css">
+      <link rel="icon" href="./IMG/logo-header.png">
+      <!-- Importações de javascript-->
+      <script defer src="Jquery/jquery-3.6.0.min.js"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script defer src="./BOOTSTRAP/js/bootstrap.js"></script>
+      <script defer src="https://kit.fontawesome.com/f465ee2db7.js" crossorigin="anonymous"></script>
+      <script defer src="js/main.js"></script>
+        <!-- Nome da página -->
+        <title>Aline Art</title>
+  </head>
+  <body>
+            
+        <!-- Header-Responsive -->
+        <div class="header-responsive">
+          <header id="header">
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg menu">
+              <div class="container-fluid menu-responsive">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="flex-logo" id="navbarTogglerDemo01">
+                  <div class="brench-menu">
+                    <a href="./index.html"><img src="./img/logo-header.png" alt="Logo: Aline Arte"></a>
+                    <a class="navbar-brand marca" href="./index.html">Aline R.S</a>
+                  </div>
+                  <ul class="navbar-nav menu-responsive-items me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./portfolio.html">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./contato.html">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+                <form class="search-bar">
+                  <input class="form-control me-2" type="search" aria-label="Search" placeholder="O que você deseja?">
+                  <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="./carrinho.html"><img src="./img/carrinho.png" alt="Ícone para acessar seu carrinho"></a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+        </div>
+
+        <!-- Header -->
+        <div class="expansive-header">
+          <header id="header">
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg menu">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a href="./index.html"><img src="./img/logo-header.png" alt="Logo: Aline Arte"></a>
+                  <a class="navbar-brand marca" href="./index.html">Aline R.S</a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./portfolio.html">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link items-menu" href="./contato.html">Contato</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" aria-label="Search" placeholder="O que você deseja?">
+                    <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./carrinho.html"><img src="./img/carrinho.png" alt="Ícone para acessar seu carrinho"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+        </div>
+
+        <!-- SECTION - CART -->
+        <section class="cart separate">
+          <div class="container">
+            <h3 class="title">Meu Carrinho</h3>
+            <div class="carrinhoSep">
+              <div class="shadow-sm p-3 mb-5 bg-body rounded">
+                <h3>Há quatro items no Carrinho!</h3>
+              </div>
+              <a href="index.html"><button class="btn btn-p"> <h4>Continuar comprando</h4></button></a>
+            </div>
+            <br>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                  <div class="card mx-auto back-card" style="width: 100%;">
+                    <img src="img/arts/Paisagem2.png" class="card-img-top" alt="Produto no Carrinho">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6 d-grid gap-2">
+                          <a href="#" class="btn btn-shop"><i class="fas fa-plus"></i></a>
+                        </div>
+                        <div class="col-6 d-grid gap-2">
+                          <a href="#" class="btn btn-shop"><i class="fas fa-minus"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title title">Primeira Arte</h5>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Descrição...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Preço...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Outras informações</p></div>
+                      <div class="d-grid gap-2">
+                        <a href="#" class="btn btn-shop"><i class="fas fa-cart-arrow-down"></i> Remover do carrinho</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                  <div class="card mx-auto back-card" style="width: 100%;">
+                    <img src="img/arts/Onça.png" class="card-img-top" alt="Produto no Carrinho">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-plus"></i></a>
+                            </div>
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title title">Segunda Arte</h5>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Descrição...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Preço...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Outras informações</p></div>
+                      <div class="d-grid gap-2">
+                        <a href="#" class="btn btn-shop"><i class="fas fa-cart-arrow-down"></i> Remover do carrinho</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                  <div class="card mx-auto back-card" style="width: 100%;">
+                    <img src="img/arts/Paisagem6.png" class="card-img-top" alt="Produto no Carrinho">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-plus"></i></a>
+                            </div>
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title title">Terceira Arte</h5>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Descrição...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Preço...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Outras informações</p></div>
+                      <div class="d-grid gap-2">
+                        <a href="#" class="btn btn-shop"><i class="fas fa-cart-arrow-down"></i> Remover do carrinho</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                  <div class="card mx-auto back-card" style="width: 100%;">
+                    <img src="img/arts/Paisagem1.png" class="card-img-top" alt="Produto no Carrinho">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-plus"></i></a>
+                            </div>
+                            <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-shop"><i class="fas fa-minus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title title">Quarta Arte</h5>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Descrição...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Preço...</p></div>
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded"><p class="card-text h6">Outras informações</p></div>
+                      <div class="d-grid gap-2">
+                        <a href="#" class="btn btn-shop"><i class="fas fa-cart-arrow-down"></i> Remover do carrinho</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- LISTA -->
+                <section class="lista separate">
+                    <div class="container">
+                    <ol class="list-group list-group-numbered">
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold"><img src="img/arts/Paisagem2.png" alt=""></div>
+                          <p>R$</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                              </div>
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-minus"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                      </span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold"><img src="img/arts/Onça.png" alt=""></div>
+                          <p>R$</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                              </div>
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-minus"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                      </span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold"><img src="img/arts/Paisagem6.png" alt=""></div>
+                          <p>R$</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                              </div>
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-minus"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                      </span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold"><img src="img/arts/Paisagem1.png" alt=""></div>
+                          <p>R$</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                              </div>
+                              <div class="col-6 d-grid gap-2">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-minus"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                      </span>
+                      </li>
+                    </ol>
+                    </div>
+                </section>
+                    
+                <!-- Botão para Avançar -->   
+                <section class="compFinal">
+                  <div class="offCanvasCarrinho">
+                    <div class="d-grid gap-2 container">
+                       <button class="btn btn-p" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><h4>Confirmar</h4></button>
+                    </div>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                    </div>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title title" id="offcanvasWithBackdropLabel">Login:</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <form id="loginUsuario" name="loginUsuario" type="#">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <label for="floatingInput">Email:</label>
+                          </div>
+                          <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                            <label for="floatingPassword">Senha:</label>
+                          </div>
+                          <br>
+                          <button type="submit" class="btn btn-light">Login</button>
+                          <br>
+                          <h5 class="offcanvas-title title" id="offcanvasWithBackdropLabel">Faça seu Cadastro:</h5>
+                          <br>
+                        </form>
+                        <form id="registroUsuario" name="registroUsuario" type="#">
+                          <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3" required>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Senha:</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3" required>
+                            </div>
+                          </div>
+                          <div class="row g-3">
+                            <div class="col-sm-7">
+                              <input type="text" class="form-control" placeholder="Cidade" aria-label="City" required>
+                            </div>
+                            <div class="col-sm-5">
+                              <label class="visually-hidden" for="autoSizingSelect">UF</label>
+                              <select class="form-select" id="autoSizingSelect">
+                                <option value="" disabled selected>UF</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                              </select>
+                            </div>
+                            <div class="col-sm">
+                              <input type="text" class="form-control" placeholder="País" aria-label="Zip" required>
+                            </div>
+                          </div>
+                          <br>
+                          <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-2 pt-0">Sexo:</legend>
+                            <div class="col-sm-10">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Masculino
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  Feminino
+                                </label>
+                              </div>
+                              <div class="form-check disabled">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                  Outro
+                                </label>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                  Enviar novidades para o Email
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-light">Registrar</button>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                      </div>
+                    </div>
+                    </div>
+                  </section>
+                </div>
+            </div>
+        </section>
+      </div>
+  </body>
+</html>

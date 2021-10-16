@@ -1,0 +1,31 @@
+:root{
+  --rosa-claro:#fce2e1;
+  --rosa-escuro:#da8f8c;
+  --cinza: #746f6f;
+}
+
+/* SECTION - CORPO - LATERAL */
+.carousel1 .carousel{
+    margin-top: 10px;
+}
+section .prodDesc{
+    margin-top: 10px;
+    text-align: center;
+}
+.prod{
+    padding: 2%;
+}
+.cards1{
+    text-align: center;
+}
+.cards1 .compartimento1{
+    margin: -5px 0;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+}
+.letterColor{
+  color: var(--cinza);
+}
+

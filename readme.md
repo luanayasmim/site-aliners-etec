@@ -1,0 +1,1 @@
+This is a project for my course about online art store.

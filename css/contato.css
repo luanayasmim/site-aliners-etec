@@ -1,0 +1,57 @@
+body{
+    position: relative;
+}
+
+.img-contato{
+    background-image: url(../img/iniciocont.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 80px;
+}
+ 
+main .container .contato{
+    text-align: center;
+    margin-top: 100px;
+}
+ 
+main .container .intro{
+    margin-top: -20px;
+    text-align: center;
+    padding: 2%;
+}
+  
+.col-12 p{
+   padding-top: 2px;
+   text-decoration: none;
+   display: inline-block;
+   color: var(--cinza);
+}
+ 
+.tagp{
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cinza);
+}
+ 
+.biografia{
+    padding-top: 20px;
+    font-size: 21px;
+    width: 100%;
+    height: 100%;
+}
+.bio{
+    margin-top: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-start-start-radius: 7%;
+}
+.imagem{
+    margin-top: 15px;
+    width: 100%;
+    height: 90%;
+}
+ 

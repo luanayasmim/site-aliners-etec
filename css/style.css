@@ -1,0 +1,240 @@
+:root{
+    --rosa-claro:#fce2e1;
+    --rosa-escuro:#da8f8c;
+    --cinza: #746f6f;
+}
+/* Estilização principal do site */
+body{
+background: var(--rosa-claro);
+text-decoration: none;
+color: var(--cinza);
+font-size: 20px;
+}
+
+/* Estilização do header-menu */
+.menu{
+  background-color: var(--rosa-escuro);
+}
+.menu .items-menu{
+  color: var(--rosa-claro);
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+.menu .items-menu:hover{
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: 2px 2px 8px #ffffff;
+}
+.menu img{
+  height: 100px;
+  width: 100px;
+}
+.menu .marca{
+font-size: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: block;
+}
+
+.menu-responsive{
+display: flex;
+}
+
+.search-bar{
+display: flex;
+}
+
+@media (min-width: 990px) {
+.flex-logo{
+  background-color: blue;
+}
+
+.header-responsive{
+  display: none;
+}
+}
+
+@media (max-width: 990px) {
+
+.expansive-header{
+  display: none;
+}
+
+.menu, .items-menu{
+  display: flex;
+  justify-content: space-around;
+}
+.justify-header{
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.menu-responsive{
+  display: flex;
+  align-items: baseline !important;
+  flex-wrap: nowrap !important;
+}
+
+.menu{
+  flex-direction: column !important;
+}
+
+.brench-menu{
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.menu-responsive-items{
+  position: relative;
+  left: -120px;
+  top: -70px;
+}
+
+.search-bar{
+  width: 40%;
+}
+
+}
+
+@media (max-width: 650px) {
+.expansive-header{
+  display: none;
+}
+
+.brench-menu{
+  display: none;
+}
+
+.menu-responsive-items{
+  left: -100%;
+  top: 50px;
+}
+
+.menu-responsive{
+  height: 200px;
+}
+}
+
+/* Botão de pesquisa*/
+.btn-search{
+    color: var(--rosa-claro);
+    
+}
+.btn-search{
+    color: var(--rosa-claro);
+    border-color: var(--rosa-claro);
+  }
+  .btn-search:hover {
+    color: #ffffff;
+    background-color: var(--cinza);
+    border-color: var(--cinza);
+  }
+  .btn-check:focus + .btn-search, .btn-search:focus {
+    box-shadow: 0 0 0 0.25rem;
+  }
+  .btn-check:checked + .btn-search, .btn-check:active + .btn-search, .btn-search:active, .btn-search.active, .btn-search.dropdown-toggle.show {
+    color: #ffffff;
+    background-color: var(--rosa-escuro);
+    border-color: var(--rosa-claro);
+  }
+  .btn-check:checked + .btn-search:focus, .btn-check:active + .btn-search:focus, .btn-search:active:focus, .btn-search.active:focus, .btn-search.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem;
+  }
+  .btn-search:disabled, .btn-search.disabled {
+    color: var(--rosa-claro);
+    background-color: transparent;
+  }
+
+.btn-p{
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: var(--rosa-escuro);
+    background: var(--rosa-claro);
+    border: 1px solid var(--rosa-escuro);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 1s;
+}
+.btn-p:hover{
+    color: var(--rosa-claro);
+    border: 2px solid var(--rosa-claro);
+    background-color: var(--cinza);
+    transition: 1s;
+}
+
+/* Estilização dos cards */
+.btn-shop{
+  color: var(--cinza);
+  border: 2px solid var(--cinza);
+  transition: 1s;
+}
+.btn-shop:hover{
+  color: var(--rosa-claro);
+  border: 2px solid var(--rosa-claro);
+  background-color: var(--cinza);
+  transition: 1s;
+}
+.back-card{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+  /* Estilização do footer */
+footer div h3{
+  color: var(--rosa-escuro);
+}
+footer div a{
+  text-decoration: none;
+}
+
+footer figure img{
+  padding: 10px;
+}
+
+/* Ícones */
+.whatsapp, .email{
+  width: 20px;
+  height: 20px;
+}
+
+.title::after{
+
+  content:"";
+  width: 100%;
+  height: 1px ;
+  display: block;
+  background-color: var(--cinza);
+  margin-top:1%;
+}
+
+.title{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.title1::after{
+  content:"";
+  width: 50%;
+  height: 1px ;
+  display: block;
+  background-color: var(--rosa-escuro);
+  margin-top:1%;
+}
+
+.separate::before{
+  content:"";
+  width: 95%;
+  height: 2px ;
+  display: block;
+  background-color: var(--cinza);
+  margin: 1% auto;
+}
+
+footer{
+  margin-top: 100px;
+}
